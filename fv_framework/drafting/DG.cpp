@@ -100,7 +100,7 @@ In Eigen, arithmetic operators such as operator+ don't perform any computation b
 they just return an "expression object" describing the computation to be performed.
 The actual computation happens later, when the whole expression is evaluated, typically in operator=.
 While this might sound heavy, any modern optimizing compiler is able to optimize away that
-abstraction and the result is perfectly optimized code.
+abstraction and the result is perfectly optimized code. [https://eigen.tuxfamily.org/dox/group__TutorialLinearAlgebra.html]
 */
 int main()
 {
